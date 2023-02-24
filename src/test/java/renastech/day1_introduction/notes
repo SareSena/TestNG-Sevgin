@@ -1,0 +1,31 @@
+Selenium:
+-Basically a collection of jar files
+-The jar files have classes
+-Those classes have ready method
+-We use those jar files to do action on the browsers.
+
+Maven:
+-Maven is a built automation tool
+-Help us to create projects
+-It is giving us ready pom.xml file
+
+Pom.xml
+-It helps us manage and add dependencies under project
+
+-To be able to do any action on web element we need to locate that web element with selenium Webdriver.
+-We are going to use findElement(By.locator)
+findElement(By.locator)
+    -this method will return a single webelement
+    -return type is webelement
+    -it is going to trow NosuchElementExeption if it cant find it.
+
+ Locator
+ -We have 8 locaters in selenium
+ 1.name
+ 2.classname
+ 3.id
+ 4.linktext
+ 5.partiallinktext
+ 6.tagname
+ 7.xpath
+ 8.css
