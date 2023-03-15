@@ -1,0 +1,43 @@
+
+/*The Implicit Wait in Selenium is used to tell the WebDriver to
+wait for a certain amount of the time before it throws a "No Such element Exception".
+The default setting is 0.Once we set the time, the webdirver will
+wait for the element for that time before throwing an exception
+*/
+
+/*
+    Explicit Wait
+    The Explicit Wait in selenium is used to tell the web driver to wait for
+    certain conditions (Expected Conditions) or maximum time exceed before
+    throwing "ElementNotVisibleException" exception.
+    It is an intelligent kind of wait , but it can be applied only for specified elements.
+    It gives better options than implicit wait as it waits for  dynamically loaded Ajax elements.
+    */
+
+WEBDRIVERWAIT CLASS (Explicit wait)
+
+  -->We use explicit wait if we are waiting for some specific webElement or action to happen
+  -This will wait up to given seconds like implicit wait.(if condition happens on the third second wait will wait
+  (it wont wait whole time to get finish it will only wait until condition gets true)
+  -After 20 it will throw TimeOutException if condition not happens
+
+  Examples:
+  alertIsPresent()
+  elementSelectionStatesToBe()
+  elementToBeClickable()
+  elementToBeSelected()
+  frameToBeAvailableAndSwitchToIt()
+  invisibilityOfTheElementLocated()
+  invisibilityOfElementWithText()
+  presenceOfAllElementsLocatedBy()
+  presenceOfElementLocated()
+  textToBePresentInElement()
+  textToBePresentInElementLocated()
+  textToBePresentInElementValue()
+  titleIs()
+  titleContains()
+  visibilityOf()
+  visibilityOfAllElements()
+  visibilityOfAllElementsLocatedBy()
+  visibilityOfElementLocated()
+

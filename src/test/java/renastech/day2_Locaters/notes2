@@ -50,7 +50,7 @@ dynamic(when you refresh if you see id value is changing that means id is dynami
 syntax : driver.findElement(By.id("id attribute value"));
 
 5-className:
---className is not always unique,that is why it mogiht have multiple values of the same attribute
+--className is not always unique,that is why it might have multiple values of the same attribute
 --and it will return you the first one it finds
 
 syntax : driver.findElement(By.className("class attribute value"));

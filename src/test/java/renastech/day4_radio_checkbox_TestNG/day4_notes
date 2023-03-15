@@ -1,0 +1,43 @@
+
+findElements() method
+.This method is used to find more than one webElement
+.Return type:List<WebElement>
+If it cannot find webElement:
+.Does NOT throw exception.(Findelement will give you exception if there is no element)
+.Only returns an empty list
+
+How do we go parent to child using xpath?
+-->ex:  Locating anchor tag by its parent using xpath.
+
+      //div[@id='hello'] --> this is locating the div
+      //div[@id='hello']/a --> this is now locating the anchor tag using its parent
+
+How do we go from CHILD TO PARENT using xpath?
+  -When we want to go from child to parent: /..
+  //a[@class='ghju']/.. this will locate the parent of a tag
+  //xpath has ability to go from child to parent
+  //to be able to go from child to parent you will need to use /..
+
+"Selenium Methods:
+-getTitle()
+-navigate()
+-getText()
+-sendKeys()
+-getCurrentUrl()
+-getAttribute()
+-getPageSource()
+-getClass()
+-findElement(By, by)
+-click()
+-findElements(By , by)
+-isEnabled()
+-close() and quit()"
+-isDisplayed()
+-isSelected()
+
+Implicit wait
+--An implicit wait is tell webDriver to pool the html code for a certain amount of time
+when you trying to findelement
+--if page is loaded immediately it wont wait up to given second
+--type of selenium waits
+
