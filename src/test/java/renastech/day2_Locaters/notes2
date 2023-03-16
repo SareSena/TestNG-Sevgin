@@ -11,9 +11,9 @@ They are helping us to locate any webelement that you see on the webpage
 8-xpath
 
 1-Name:
-This locator will be looking into the whole HTML code and return the webelement
+This locator will be looking into the whole HTML code and return the webElement
 //with matching name attribute
---this one will find and return the first webelement it finds.
+--this one will find and return the first webElement it finds.
 
 syntax: driver.findElement(By.name("name attribute value")).
 

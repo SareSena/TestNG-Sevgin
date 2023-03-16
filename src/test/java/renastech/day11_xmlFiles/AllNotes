@@ -36,3 +36,62 @@ Example:
 <class name="Googletest.MapTest'/>
 <class name="Googletest.ImagesTest'/>
 </classes>
+
+Questions:
+1.Why are you using Selenium? (What is the advantage of using selenium?)
+-Multiple Language : such as Java , C# , Python, Ruby , Ruby , JS...
+-Multiple Browsers
+-Open source (its free)
+-different operation systems(OS),such as : Mac, Windows , Linux
+
+2.What is webelement?
+-Everything you see on the page is a webelement
+-such a links, buttons,input boxes,checkbox,images etc.
+
+3-howmany locaters we have?
+--8 locaters we have
+
+4-What happens when findelement method cannot locate a weblemenet?
+-> It throws NoSuchElementException
+
+5-What is return type of findelement method
+--Webelement
+
+6-What is maven? Why we use maven project?
+--maven is a built automation tool
+--it helps us to create our automating framework with some libraries.
+--it has pom.xml
+  (pom.xml is helping us to get dependency outside (library: ready methods)
+
+7-Differences of Thread.Sleep and implicit wait?
+--thread.sleep will wait until given time and it is going to stop execution
+--implicit wait will wait until page got loaded.--it wont wait until given time
+
+8-How do we handle checkboxes and radio buttons using selenium?
+--we need to locate them and then you can also click
+--//to check their functionality
+    --isSelected or isEnabled method method will help you
+
+9-How do we handle dynamic web elements?
+--if the webelement attribute value are changing when you refreshing page that means your webelement is dynamic
+--custom methods xpath method will help you to handle this issue (xpath-contains method)
+
+syntax: Custom methods
+//div[contains(@attribute, 'value')] --use static part of the value
+//div[starts-with(@attribute, 'value')]
+//div[ends-with(@attribute, 'value']
+
+id=hello25 --dynamic element
+refresh page
+id=hello37 --dynamic element
+refresh page
+id=hello 94 --dynamic element
+
+//div[contains(@id, 'hello')]
+
+10-Differences CSS and Xpath
+--Xpath has custom methods but css doesnt have those
+--Xpath has ability to go from child to paretn and parent to child
+//but in css you can only go from parent to child
+--css it works little faster then xpath
+

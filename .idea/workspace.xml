@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caff53bc-92b5-44d9-8269-7dd8ffc43602" name="Changes" comment="Sevgin Testng">
-      <change afterPath="$PROJECT_DIR$/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paralel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/base/TestBase2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/base/TestBase2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/renastech/base/TestBase2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/renastech/base/TestBase2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day11_xmlFiles/AllNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day11_xmlFiles/AllNotes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day2_Locaters/notes2" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day2_Locaters/notes2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day3_Locaters/day3" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day3_Locaters/day3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day4_radio_checkbox_TestNG/day4_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day4_radio_checkbox_TestNG/day4_notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day5_TestNG_Dropdown/notes5" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day5_TestNG_Dropdown/notes5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day6_WebTable_Allerts_Iframe/notes6" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day6_WebTable_Allerts_Iframe/notes6" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/regression.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/paralel.xml">
     <configuration name="C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/firefox.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG_Sevgin" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/firefox.xml" />
@@ -65,6 +69,16 @@
     <configuration name="C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/headless.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTestNG_Sevgin" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/headless.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/paralel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTestNG_Sevgin" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/paralel.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -92,23 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumTestNG_Sevgin" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/paralel.xml" />
         <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/regression.xml" />
         <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/smokeSuite.xml" />
         <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/headless.xml" />
         <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/firefox.xml" />
-        <item itemvalue="TestNG.C:/Users/sares/IdeaProjects/SeleniumTestNG_Sevgin/test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678936403664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sevgin Testng">
+      <created>1678980413100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678980413100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

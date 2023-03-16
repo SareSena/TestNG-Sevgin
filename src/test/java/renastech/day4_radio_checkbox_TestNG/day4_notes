@@ -1,4 +1,10 @@
 
+Implicit Wait
+--An implicit wait is tell webdriver to pool the html code for a certain amount of time
+when you trying to findelement
+--if page is loaded immediately it wont wait up to given second
+--type of selenium waits
+
 findElements() method
 .This method is used to find more than one webElement
 .Return type:List<WebElement>

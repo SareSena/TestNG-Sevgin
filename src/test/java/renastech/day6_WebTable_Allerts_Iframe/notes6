@@ -45,6 +45,7 @@ tr --> stands for table row
    --> How do we handle: We just locate just as another web element on the page.
    -->Then we click
  2-JavaScript Alerts:
+ --prompt , confirm box, alert box
 
  HOW DO WE HANDLE ALERTS?
     --> Using Alerts

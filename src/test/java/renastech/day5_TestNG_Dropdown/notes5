@@ -44,6 +44,7 @@ In what order the tests are running if we have multiple tests?
     </select>
 
 --use select class to locate them.
+by value, index and text
 
 2-HTML dropdowns: these are the dropdowns that are created NOT USING <select>
   -These dropdowns are handled just like any other webElement you will see on the page.

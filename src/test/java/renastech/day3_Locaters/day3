@@ -15,12 +15,27 @@ for ex  : if you wanna print all links in the page then you will use this method
 driver.findElements(By.tagName(a))
 driver.findElements(By.tagName(div))
 
+getText()
+--this one will be getting the text of given webelement
+--it is returning you the text of element as a String
+
+<a id="ert" href="www.amazon.com">Amazon</a>
+getText method will return you Amazon
+
+getAttribute ("attribute name")   //gives us value of attribute
+<a id="ert" href="www.amazon.com"
+>Amazon</a>
+getAttribute("id")
+this one will print you ert
+
+
 Utilities Package
 The reason of using utilities
 1-to make our code more reusable
 2-easy to maintanence
 (in the future if you wanna change something instead of going each class
 you will only change from utilities
+3-Reduce typing of same codes over and over
 
 
 7- cssSelector
