@@ -1,4 +1,29 @@
 
+//to be able to do scroll down
+   //you have 2 option
+      //1.actions move to the element
+    //need to create an object from actions
+      Actions actions=new Actions(DriverUtil.getdriver());
+      actions.moveToelement(iframe).perform();
+
+      //2.JS Executer
+
+    JavaScriptExecutor javascriptExecutor = (JavascriptExecutor) DriverUtil.getDriver();
+    //to make jsexecuter works you need to do casting between driver and jsexecuter
+
+    BrowserUtils.wait(3);
+    javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);" , iframe);
+
+  Either for actions or jsexecuter first you need to create connection the place that they are going to work which is
+   in action class created with constractor and it has webdriver so you can pass
+      Actions actioms = new Actions (DriverUtil.getDriver());
+
+      in jsexecuter since it has no constactor to make jsexecuter to understand where is going to be connect which is
+      //you need to cast with driver
+      JavascriptExecutor javascriptExecutor =(JavascriptExecutor)DriverUtil.getdriver();
+
+
+
 /*The Implicit Wait in Selenium is used to tell the WebDriver to
 wait for a certain amount of the time before it throws a "No Such element Exception".
 The default setting is 0.Once we set the time, the webdirver will

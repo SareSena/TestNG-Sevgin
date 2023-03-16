@@ -13,6 +13,14 @@ How to get current window handle?
 How to get all of the window handles of the currently opened tabs/windows?
 -->driver.getWindowHandles()--> wii return a SET of string that contains all the windows or tabs that you have
 
+Using intelliJ Git Tools:
+After creating your repository in remote repository (github) and connecting with your local repository (your local
+You will see Git extantions on top right of intellij as a 3 icon.
+Blue arrow is git pull
+Yellow arrow is git push
+green tick is git commit
+I will also add screenshot in the selenium channel
+
 configuration.properties
 //you will need to store important data
 //also changeable datas

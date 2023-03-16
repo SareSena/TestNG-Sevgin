@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="caff53bc-92b5-44d9-8269-7dd8ffc43602" name="Changes" comment="Sevgin Testng">
-      <change afterPath="$PROJECT_DIR$/paralel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day11_xmlFiles/AllNotes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day11_xmlFiles/AllNotes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day2_Locaters/notes2" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day2_Locaters/notes2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day3_Locaters/day3" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day3_Locaters/day3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day4_radio_checkbox_TestNG/day4_notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day4_radio_checkbox_TestNG/day4_notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day5_TestNG_Dropdown/notes5" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day5_TestNG_Dropdown/notes5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day6_WebTable_Allerts_Iframe/notes6" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day6_WebTable_Allerts_Iframe/notes6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day10_POM_ExplicitWait/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day10_POM_ExplicitWait/notes10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/renastech/day7_Windows_Tabs_Properties/day7" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/renastech/day7_Windows_Tabs_Properties/day7" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678980413100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sevgin Testng">
+      <created>1678986348148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678986348148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
